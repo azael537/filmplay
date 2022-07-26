@@ -53,7 +53,7 @@ export default function Home(props) {
       />
       <CarouselPelis isShow={isShow}>{RenderList()}</CarouselPelis>
 
-      {/* <div className="floating--close">
+      <div className="floating--close">
         <span
           onClick={() => {
             localStorage.clear();
@@ -62,7 +62,7 @@ export default function Home(props) {
         >
           Cerrar Sesión
         </span>
-      </div> */}
+      </div>
     </div>
   );
 }
