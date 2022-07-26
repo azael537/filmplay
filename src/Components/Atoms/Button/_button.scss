@@ -1,0 +1,18 @@
+@use "../../../Sass/_vars.scss" as *;
+
+.btn-custom{
+    font-size: $font-size-btn;
+    font-weight: $font-weight-btn;
+
+    &.btn-link{
+        color: $white-color;
+        text-decoration: none;
+        a{
+            color: $white-color;
+            text-decoration: none !important;
+            &:hover{
+                color: $white-color;
+            }
+        }
+    }
+}
